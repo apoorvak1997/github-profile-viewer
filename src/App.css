@@ -12,20 +12,33 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+} */
+
+.usercard {
+  overflow: visible !important;
+}
+
+.root {
+  flex: 1;
+  background-color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.MuiCard-root{
+  overflow: visible !important;
 }
 
 @keyframes App-logo-spin {
